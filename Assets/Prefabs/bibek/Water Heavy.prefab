@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4638794418848936947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3138623237196264013}
+  - component: {fileID: 4759015604625267043}
+  m_Layer: 0
+  m_Name: Water Heavy
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3138623237196264013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638794418848936947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4759015604625267043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638794418848936947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd8e680f9163734eaddeae4751dab73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - Name: Nutrient 1
+    Prefab: {fileID: 1642801689369854727, guid: 53880a6e601fbea41b398bb5f82ce34b, type: 3}
+    Chance: 70.3
+    _weight: 0
+  - Name: Water
+    Prefab: {fileID: 2668339323015830788, guid: eb95c817bf17cf940a5a9872f061341c, type: 3}
+    Chance: 55.6
+    _weight: 0
+  - Name: Rock 1
+    Prefab: {fileID: 963803331737823411, guid: e2bf0bf5edeb06e4d80590ef1807fb83, type: 3}
+    Chance: 16.8
+    _weight: 0
+  - Name: Rock 2
+    Prefab: {fileID: 963803331737823411, guid: 84839a2a766371a45bd0b84cea9b7326, type: 3}
+    Chance: 15.7
+    _weight: 0
+  - Name: Empty
+    Prefab: {fileID: 0}
+    Chance: 32.7
+    _weight: 0

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 449519bab9b98ce419e4ffa246d2898c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - waterLevel: {fileID: 11400000, guid: 29ae60a10eaa0dd4a9454621f39b1f98, type: 2}
+  - lives: {fileID: 11400000, guid: 4f06c6d468c81ad4e87fd89213501ded, type: 2}
+  - nutrients: {fileID: 11400000, guid: b83d710e9e4638d458914dc507bfffb8, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

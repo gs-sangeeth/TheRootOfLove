@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4638794418848936947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3138623237196264013}
+  - component: {fileID: 4759015604625267043}
+  m_Layer: 0
+  m_Name: Sprites 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3138623237196264013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638794418848936947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4759015604625267043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638794418848936947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd8e680f9163734eaddeae4751dab73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - Name: Nutrient 1
+    Prefab: {fileID: 8242396992439134608, guid: 42f278291d7177e449db1e594ddcdb8b, type: 3}
+    Chance: 22.8
+    _weight: 0
+  - Name: Nutrient 2
+    Prefab: {fileID: 963803331737823411, guid: 84839a2a766371a45bd0b84cea9b7326, type: 3}
+    Chance: 17.8
+    _weight: 0
+  - Name: Water
+    Prefab: {fileID: 1234838742664841318, guid: ce032e3c2ba57ef46bfef27f3bdbcca2, type: 3}
+    Chance: 34.5
+    _weight: 0

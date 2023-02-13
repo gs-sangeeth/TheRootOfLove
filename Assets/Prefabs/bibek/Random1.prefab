@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4638794418848936947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3138623237196264013}
+  - component: {fileID: 4759015604625267043}
+  m_Layer: 0
+  m_Name: Random1
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3138623237196264013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638794418848936947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4759015604625267043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638794418848936947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd8e680f9163734eaddeae4751dab73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - Name: 
+    Prefab: {fileID: 7356758589809844827, guid: fa8ac11074a0efc428b5ca1d4ae3e6e2, type: 3}
+    Chance: 65.2
+    _weight: 0
+  - Name: 
+    Prefab: {fileID: 7356758589809844827, guid: 33e092b4bb29e684b93436ab3c10882c, type: 3}
+    Chance: 48.2
+    _weight: 0
+  - Name: 
+    Prefab: {fileID: 7356758589809844827, guid: fc6e573560cad80439104f850c0d5efd, type: 3}
+    Chance: 20.2
+    _weight: 0
+  - Name: 
+    Prefab: {fileID: 7356758589809844827, guid: c570e0bf65bf26745baf7fd138223edc, type: 3}
+    Chance: 35.9
+    _weight: 0
+  - Name: 
+    Prefab: {fileID: 1642801689369854727, guid: 53880a6e601fbea41b398bb5f82ce34b, type: 3}
+    Chance: 65.2
+    _weight: 0
